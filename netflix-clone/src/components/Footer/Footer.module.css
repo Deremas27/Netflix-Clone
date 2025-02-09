@@ -1,53 +1,6 @@
-/* .footer_outer_container {
-    background-color: #111;
-    color: grey;
-    display: flex;
-    justify-content: center;
-}
-.footer_inner_container {
-    width: 60%;
-    /* background-color: red; */
-/* } */
-/* .footer_icons {
-    /* background-color: blue; */
-    /* width: 12%;
-    display: flex;
-    justify-content: center;
-    margin-left: 10px;
-    color: #fff; */
-/* }  */
-/* .footer_data {
-    display: flex;
-    justify-content: center;
-} */
-/* .footer_data ul {
-    letter-spacing: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 12vh; */
-    /* background-color: blue; */
-/* } */
-/* .footer_data ul li {
-    cursor: pointer;
-} */
-/* .service_code {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: #fff 1px solid;
-    width: 30%;
-    margin: 10px 0;
-    cursor: pointer;
-}
-.copy_write {
-    font-size: 12px;
-    margin-bottom: 10px;
-}  */
 
-/* new one */
 /* Footer Outer Container */
-.footer_outer_container {
+ .footer_outer_container {
     background-color: #111;
     color: grey;
     display: flex;
@@ -55,19 +8,20 @@
     padding: 2rem 0;
 }
 
-/* Footer Inner Container */
+
 .footer_inner_container {
     width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
 /* Social Media Icons */
 .footer_icons {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     gap: 1.5rem;
+    margin-left: 10px;
     color: #fff;
     margin-bottom: 1rem;
     font-size: 1.5rem;
@@ -84,7 +38,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 1rem;
 }
 
@@ -97,6 +51,7 @@
 /* Footer Links */
 .footer_data ul {
     list-style: none;
+    height: 12vh; 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -117,8 +72,10 @@
 .service_code {
     border: 1px solid #fff;
     max-width: 150px;
-    padding: 0.5rem;
-    margin: 1rem 0;
+    text-align: center;
+    width: 15%;
+    padding: 0.25rem;
+    margin: .8rem 0;
     cursor: pointer;
     font-size: 0.9rem;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -172,4 +129,56 @@
     .copy_write {
         font-size: 0.7rem;
     }
+} 
+
+
+
+/* Optional CSS */
+
+/* .footer_outer_container {
+    background-color: #111;
+    color: grey;
+    display: flex;
+    justify-content: center;
 }
+.footer_inner_container {
+    width: 60%;
+     background-color: red; 
+ } 
+ .footer_icons {
+     background-color: blue; 
+     width: 12%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    color: #fff; 
+ }  
+ .footer_data {
+    display: flex;
+    justify-content: center;
+} 
+ .footer_data ul {
+    letter-spacing: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 12vh; 
+     background-color: blue; 
+ } 
+ .footer_data ul li {
+    cursor: pointer;
+} 
+ .service_code {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #fff 1px solid;
+    width: 30%;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.copy_write {
+    font-size: 12px;
+    margin-bottom: 10px;
+}  */
+
